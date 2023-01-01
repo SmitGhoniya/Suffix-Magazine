@@ -1,0 +1,336 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Slab', serif;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+header {
+    padding: 15px 0;
+}
+
+.menu {
+    float: left;
+    width: 15%;
+    padding: 30px 82px;
+    text-align: left;
+}
+
+.menuicon {
+    color: black;
+    font-size: 25px;
+}
+
+.menuicon:hover {
+    color: gray;
+}
+
+.company-name {
+    float: left;
+    width: 70%;
+    text-align: center;
+    padding: 17px;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.x {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.sec1div1 {
+    float: left;
+    width: 50%;
+}
+
+img {
+    width: 100%;
+}
+
+.sec1div2 {
+    float: left;
+    width: 50%;
+    padding: 109px;
+    background-color: black;
+    color: white;
+}
+
+.sec1date {
+    display: inline-block;
+    width: 50%;
+    letter-spacing: 7px;
+    font-size: 13px;
+}
+
+.sec1life {
+    color: white;
+    display: inline-block;
+    width: 49%;
+    text-align: right;
+}
+
+.sec1life:hover {
+    color: gray;
+}
+
+.sec1h2 {
+    padding: 75px 0 35px 0;
+}
+
+.sec1p {
+    line-height: 25px;
+    font-size: 13px;
+}
+
+.read {
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    border: 1px solid white;
+    font-size: 11px;
+    padding: 15px 50px;
+    margin-top: 50px;
+}
+
+.read:hover {
+    background-color: white;
+    color: black;
+}
+
+.section-2 {
+    padding: 70px 130px 0;
+}
+
+.features {
+    padding: 0 0 10px 20px;
+}
+
+.section-2 div {
+    padding: 30px 20px;
+    width: 50%;
+    float: left;
+}
+
+.sec2date {
+    display: inline-block;
+    width: 50%;
+    letter-spacing: 5px;
+    font-size: 11px;
+}
+
+.sec2life {
+    color: black;
+    display: inline-block;
+    width: 49%;
+    text-align: right;
+}
+
+.sec2life:hover {
+    color: gray;
+}
+
+.sec2h2 {
+    padding: 40px 0 25px 0;
+    font-size: 20px;
+}
+
+.sec2p {
+    line-height: 20px;
+    font-size: 13px;
+}
+
+.section-3 {
+    padding: 50px 135px;
+    text-align: center;
+}
+
+.sec3div1,
+.sec3div2,
+.sec3div3 {
+    padding: 0 15px 0;
+    width: 33.33%;
+    float: left;
+    text-align: left;
+}
+
+.sec3date {
+    display: inline-block;
+    width: 49%;
+    letter-spacing: 4px;
+    font-size: 10px;
+}
+
+.sec3life {
+    color: black;
+    display: inline-block;
+    width: 49%;
+    text-align: right;
+}
+
+.sec3life:hover {
+    color: gray;
+}
+
+.sec3h2 {
+    padding: 35px 0 25px 0;
+    font-size: 18px;
+}
+
+.seeall {
+    display: inline-block;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    padding: 12px 65px;
+    margin: 25px 0;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.seeall:hover {
+    background-color: gray;
+    color: black;
+}
+
+.section-4 {
+    padding: 0 150px;
+}
+
+.section-4 div {
+    width: 50%;
+    float: left;
+}
+
+.sec4div2 {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 68px 70px;
+    font-size: 21px;
+    letter-spacing: 1px;
+}
+
+.sec4div2 h2 {
+    padding-top: 20px;
+}
+
+.subscribe {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 10px 50px;
+    border: 1px solid white;
+    margin: 30px;
+    font-size: 11px;
+}
+
+.subscribe:hover {
+    background-color: white;
+    color: black;
+}
+
+.section-5 {
+    padding: 50px 135px 0;
+    text-align: center;
+}
+
+.section-5 h3 {
+    text-align: left;
+    padding: 0 0 35px 15px;
+}
+
+.section-5 div {
+    padding: 0 15px 0;
+    width: 33.33%;
+    float: left;
+    text-align: left;
+}
+
+.sec5date {
+    display: inline-block;
+    width: 49%;
+    letter-spacing: 4px;
+    font-size: 10px;
+}
+
+.sec5life {
+    color: black;
+    display: inline-block;
+    width: 49%;
+    text-align: right;
+}
+
+.sec5life:hover {
+    color: gray;
+}
+
+.sec5h2 {
+    padding: 35px 0 25px 0;
+    font-size: 18px;
+}
+
+.section-6 {
+    padding: 0 135px 50px;
+    text-align: center;
+}
+
+.section-6 h3 {
+    text-align: left;
+    padding: 0 0 35px 15px;
+}
+
+.sec6div1,
+.sec6div2,
+.sec6div3 {
+    padding: 0 15px 0;
+    width: 33.33%;
+    float: left;
+    text-align: left;
+}
+
+.sec6date {
+    display: inline-block;
+    width: 49%;
+    letter-spacing: 4px;
+    font-size: 10px;
+}
+
+.sec6life {
+    color: black;
+    display: inline-block;
+    width: 49%;
+    text-align: right;
+}
+
+.sec6life:hover {
+    color: gray;
+}
+
+.sec6h2 {
+    padding: 35px 0 25px 0;
+    font-size: 18px;
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 50px 20px 30px;
+}
+
+footer p {
+    font-size: 12px;
+    padding-top: 30px;
+}
+
+footer h1 {
+    letter-spacing: 2px;
+}
